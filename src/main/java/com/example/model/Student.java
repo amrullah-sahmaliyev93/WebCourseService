@@ -1,0 +1,16 @@
+package com.example.model;
+
+import lombok.Data;
+
+import java.util.Date;
+
+@Data
+public class Student  extends  AbstractClass{
+
+    private String name;
+    private String surname;
+    private String adress;
+    private Date dob;
+    private String phone;
+
+}
